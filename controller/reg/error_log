@@ -1,0 +1,14 @@
+[09-Nov-2021 22:28:01 UTC] PHP Notice:  Undefined index: title in /home/bereansv/public_html/dominioncooperative/controller/reg/nmb.php on line 48
+[10-Nov-2021 13:04:10 UTC] PHP Notice:  Undefined index: title in /home/bereansv/public_html/dominioncooperative/controller/reg/nmb.php on line 48
+[14-Apr-2022 22:40:19 UTC] PHP Warning:  mysqli_connect(): (HY000/1040): Too many connections in /home/bereansv/public_html/dominioncooperative/connections/connection.php on line 10
+[14-Apr-2022 22:40:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/bereansv/public_html/dominioncooperative/connections/connection.php:10
+Stack trace:
+#0 /home/bereansv/public_html/dominioncooperative/controller/reg/usercheck.php(1): require_once()
+#1 {main}
+  thrown in /home/bereansv/public_html/dominioncooperative/connections/connection.php on line 10
+[14-Apr-2022 22:42:28 UTC] PHP Warning:  mysqli_connect(): (08004/1040): Too many connections in /home/bereansv/public_html/dominioncooperative/connections/connection.php on line 10
+[14-Apr-2022 22:42:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/bereansv/public_html/dominioncooperative/connections/connection.php:10
+Stack trace:
+#0 /home/bereansv/public_html/dominioncooperative/controller/reg/usercheck.php(1): require_once()
+#1 {main}
+  thrown in /home/bereansv/public_html/dominioncooperative/connections/connection.php on line 10
